@@ -12,7 +12,7 @@ google.charts.setOnLoadCallback(drawTrendingTotalChart);
 google.charts.setOnLoadCallback(drawUserTotalChart);
 
 function drawHashtagTotalChart() {
-    var allText = "#mma2018\t62\n#bts\t42\n#vsfashionshow\t38\n#coyg\t38\n#레드벨벳\t32\n#redvelvet_rbb…\t32\n#arstot\t30\n#방탄소년단\t28\n#youthpart2\t22\n#데이식스\t22";
+    var allText = "#grammys\t47\n#bts\t32\n[#2018mama]\t31\n#finsup\t31\n[#2018mama\t27\n[#아이엠]\t23\n#armynavygame\t19\n#nevsmia\t18\n#boca!\t18\n#finsup\t17";
 
     console.log(allText);
 
@@ -50,7 +50,8 @@ function drawHashtagTotalChart() {
 }
 
 function drawKeywordTotalChart() {
-    var allText = "trump\t1476\nheadache\t14\nzika\t0\nflu\t14\ndiarrhea\t4\nebola\t2\nmeasles\t0";
+    var allText = "headache\t1235\nflu\t689\nebola\t163\ndiarrhea\t92\nmeasles\t57\nzika\t11";
+
     console.log(allText);
 
     var allTextLines = allText.split("\n");
@@ -88,7 +89,8 @@ function drawKeywordTotalChart() {
 
 function drawTrendingTotalChart() {
 
-    var allText = "time\t50\ntwitter\t43\nlove\t28\n2018\t27\ndec\t26\npeople\t25\nmma\t23\nalbum\t21\nam\t21\nfull\t21";
+    var allText = "trump\t215\nthank\t164\ntheir\t158\nover\t142\ntime\t134\nwin\t122\n&amp;\t119\npeople\t106\npresident\t97\nyear\t96";
+
 
     console.log(allText);
 
@@ -127,7 +129,7 @@ function drawTrendingTotalChart() {
 
 function drawUserTotalChart() {
 
-    var allText = "1.05382611106538E+018\t92\n2880970217\t88\n1.03553798344782E+018\t87\n34928794\t84\n8.27185503460016E+017\t81\n1.05949463717234E+018\t74\n2828172761\t74\n560382303\t74\n8.33796893822042E+017\t70\n3964605254\t64";
+    var allText = "25073877\t4883\n890891\t2060\n739784130\t1303\n292929271\t886\n232901331\t884\n21059255\t879\n105119490\t854\n138203134\t854\n7.80206406024692E+017\t840\n8.7824760009651E+017\t763";
 
     console.log(allText);
 

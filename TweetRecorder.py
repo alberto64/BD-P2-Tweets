@@ -48,7 +48,7 @@ if __name__ == '__main__':
             keywords.write("\"" + str(item.created_at) + "\",\"" + item.id_str + "\",\"" + item.text + "\",\"" + item.user.id_str + "\"\n")
             for word in item.text.split(" "):
                 print("\"" + str(item.created_at) + "\",\"" + item.id_str + "\",\"" + word + "\",\"" + item.user.id_str + "\"\n")
-                users.write("\"" + str(item.created_at) + "\",\"" + item.id_str + "\",\"" + word + "\",\"" + item.user.id_str + "\"\n")
+                usersWord.write("\"" + str(item.created_at) + "\",\"" + item.id_str + "\",\"" + word + "\",\"" + item.user.id_str + "\"\n")
 
         print("----------------------------------------")
 
